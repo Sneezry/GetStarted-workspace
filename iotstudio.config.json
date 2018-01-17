@@ -3,6 +3,10 @@
         {
             "name": "DevicePath",
             "value": "Device"
+        },
+        {
+            "name": "IoTHubName",
+            "value": ""
         }
     ]
 }
