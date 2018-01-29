@@ -106,7 +106,6 @@ bool readMessage(int messageId, char *payload)
     JSON_Object *root_object = json_value_get_object(root_value);
     char *serialized_string = NULL;
 
-    json_object_set_string(root_object, "deviceId", DEVICE_ID);
     json_object_set_number(root_object, "messageId", messageId);
 
     float temperature = readTemperature();

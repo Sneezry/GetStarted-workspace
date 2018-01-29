@@ -6,6 +6,4 @@
 
 #define MESSAGE_MAX_LEN 256
 
-#define DEVICE_ID "AZ3166"
-
 #define TEMPERATURE_ALERT 30
